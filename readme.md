@@ -151,9 +151,11 @@ When you have done this you can upload your code. You do this by pressing this i
 
 <img width="250" alt="image" src="images/step_3_image_1.png" />
 
-> ⚠️ ERROR MESSAGE: When uploading the code I got the error message **Compilation error: 'class WebSerialClass' has no member named 'msgCallback'**. This error message talks about this piece of code: `WebSerial.mgsCallback(recvMsg);`. 
+> ⚠️ ERROR MESSAGE: When uploading the code I got the error message **Compilation error: 'class WebSerialClass' has no member named 'msgCallback'**. This error message talks about this piece of code: `WebSerial.mgsCallback(recvMsg);`.
+> 
 >  <img width="250" alt="image" src="images/step_3_image_2.png" />
 
 
 ## Source references
 - [The guide I followed to do this project](https://randomnerdtutorials.com/esp8266-nodemcu-webserial-library/) 
+
