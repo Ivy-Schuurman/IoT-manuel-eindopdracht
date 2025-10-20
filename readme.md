@@ -177,7 +177,7 @@ By uploading the code again, the serial monitor will give you the IP address.
 ### Step 5: Opening the web-based serial monitor
 You have now prepared everything you need to open the web-based serial monitor. You can do this on your laptop, but also on a different device. I will be doing this on my iPad. 
 
-> For this you can use any browser, just make sure that it is running on the same network that you added in your code.
+> ⚠️ For this you can use any browser, just make sure that it is running on the same network that you added in your code.
 
 Copy the IP address from your serial monitor and paste it in the search bar followed by `/webserial`. 
 
@@ -609,3 +609,4 @@ The video with the final result can be found [here](https://youtube.com/shorts/r
 - [The source I used to solve the second error message](https://chatgpt.com/share/68f296b6-24e8-8000-ad1d-a98495773061)
 
 - [The source I used to solve the third error message](https://chatgpt.com/share/68f2abc6-ad5c-8000-9fc9-2d6a46a18448)
+
