@@ -150,7 +150,7 @@ When you have done this, you can upload your code. You do this by pressing this 
 >  <img width="250" alt="image" src="images/step_3_image_2.png" />
 > 
 > To be more specific, `mgsCallback` isn't used anymore. So the code given in the guide I use for this project is most likely old and thus uses an older version of the WebSerial library that is included, whereas I use the newest version.
-> My code is trying to call on the funtion/variable `msgCallback` on the object `WebSerial, but since the guide I used uses on older version of the library this does not work according to the source I used to solve this poblem. 
+> My code is trying to call on the funtion/variable `msgCallback` on the object WebSerial, but since the guide I used uses on older version of the library this does not work according to the source I used to solve this poblem. 
 > The reason `msgCallback()` does not work anymore is because in the newer version of the WebSerial library it doesn't exist anymore. This is also why the error message says **'class WebSerialClass'has no memeber named 'msgCallback'**.
 > The correct function is now called `onMessage()`. So I changed the line of code from `WebSerial.mgsCallback(recvMsg)` to:
 > ```cpp
@@ -607,4 +607,5 @@ The video with the final result can be found [here](https://youtube.com/shorts/r
 - [The source I used to solve the first error message](https://chatgpt.com/share/68f25c9c-b5d0-8000-8d2c-f9b5d61ef164)
 - [The code in needed for the LED light strip I got from another manual that I wrote](https://github.com/Ivy-Schuurman/Telegram_NodeMCU_manual)
 - [The source I used to solve the second error message](https://chatgpt.com/share/68f296b6-24e8-8000-ad1d-a98495773061)
+
 - [The source I used to solve the third error message](https://chatgpt.com/share/68f2abc6-ad5c-8000-9fc9-2d6a46a18448)
